@@ -1,0 +1,23 @@
+import pandas as pd 
+
+servers = pd.read_csv("servers.csv")
+print(servers)
+servers["percent"] = (servers["used"] / servers["limit"]) * 100
+
+print(servers) 
+
+
+import pandas as pd
+
+
+readings = pd.DataFrame({"score": ["70", "88", "95"]})
+
+print(readings.dtypes)
+
+readings["score"] = readings["score"].astype(int)
+
+
+readings["score"] = readings["score"] * 2
+
+
+print(readings)
