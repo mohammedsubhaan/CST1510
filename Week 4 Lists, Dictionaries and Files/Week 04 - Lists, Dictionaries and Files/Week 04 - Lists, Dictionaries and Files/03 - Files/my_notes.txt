@@ -1,0 +1,3 @@
+Note 1: Python file handling is clean and safe.
+Note 2: Always include newline characters for multi-line files.
+Note 3: The 'with' statement handles closing automatically.
